@@ -114,12 +114,12 @@ main .stats__section .stat__left .schema__container .months__and__bars {
   height: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 main .stats__section .stat__left .schema__container .months__and__bars .bars {
   display: flex;
-  gap: 31px;
-  height: 100%;
-  max-height: 379px;
+  gap: 4%;
+  height: 379px;
   margin-left: 13px;
 }
 main .stats__section .stat__left .schema__container .months__and__bars .bars .bar {
@@ -127,23 +127,70 @@ main .stats__section .stat__left .schema__container .months__and__bars .bars .ba
   height: 100%;
   background-color: #ede7fd;
 }
-main .stats__section .stat__left .schema__container .months__and__bars .bars .bar1 .inside__bar {
-  -webkit-clip-path: inset(55% 0% 0 0%);
-          clip-path: inset(55% 0% 0 0%);
+main .stats__section .stat__left .schema__container .months__and__bars .bars .inside__bar {
   background-color: #504178;
   height: 100%;
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar1 .inside__bar {
+  -webkit-clip-path: inset(20% 0% 0 0%);
+          clip-path: inset(20% 0% 0 0%);
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar2 .inside__bar {
+  -webkit-clip-path: inset(50% 0% 0 0%);
+          clip-path: inset(50% 0% 0 0%);
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar3 .inside__bar {
+  -webkit-clip-path: inset(35% 0% 0 0%);
+          clip-path: inset(35% 0% 0 0%);
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar4 .inside__bar {
+  -webkit-clip-path: inset(80% 0% 0 0%);
+          clip-path: inset(80% 0% 0 0%);
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar5 .inside__bar {
+  -webkit-clip-path: inset(50% 0% 0 0%);
+          clip-path: inset(50% 0% 0 0%);
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar6 .inside__bar {
+  -webkit-clip-path: inset(30% 0% 0 0%);
+          clip-path: inset(30% 0% 0 0%);
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar7 .inside__bar {
+  -webkit-clip-path: inset(60% 0% 0 0%);
+          clip-path: inset(60% 0% 0 0%);
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar8 .inside__bar {
+  -webkit-clip-path: inset(10% 0% 0 0%);
+          clip-path: inset(10% 0% 0 0%);
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar9 .inside__bar {
+  -webkit-clip-path: inset(30% 0% 0 0%);
+          clip-path: inset(30% 0% 0 0%);
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar10 .inside__bar {
+  -webkit-clip-path: inset(45% 0% 0 0%);
+          clip-path: inset(45% 0% 0 0%);
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar11 .inside__bar {
+  -webkit-clip-path: inset(20% 0% 0 0%);
+          clip-path: inset(20% 0% 0 0%);
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar12 .inside__bar {
+  -webkit-clip-path: inset(40% 0% 0 0%);
+          clip-path: inset(40% 0% 0 0%);
 }
 main .stats__section .stat__left .schema__container .months__and__bars .months__list {
   display: flex;
   align-items: center;
-  gap: 31px;
+  gap: 4%;
   margin-left: 13px;
 }
 main .stats__section .stat__left .schema__container .months__and__bars .months__list li {
   text-align: center;
   min-width: 20px;
+  width: 100%;
   font-size: 12px;
-  padding: 8px;
+  padding-top: 8px;
   font-weight: 600;
   line-height: 12px;
   color: #939393;
