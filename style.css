@@ -96,9 +96,19 @@ main .stats__section .stat__left .stat__title__date {
   display: flex;
   justify-content: space-between;
 }
+main .stats__section .stat__left .stat__title__date input {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 10px;
+  color: #504178;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 180px;
+}
 main .stats__section .stat__left .schema__container {
   display: flex;
-  margin-top: 29px;
   height: 100%;
 }
 main .stats__section .stat__left .schema__container .numbers__list li {
@@ -197,8 +207,31 @@ main .stats__section .stat__left .schema__container .months__and__bars .months__
 }
 main .stats__section .stat__right {
   width: 40%;
+  display: flex;
+  flex-direction: column;
 }
-main .stats__section h1 {
+main .stats__section .stat__right ul {
+  width: 100%;
+  margin-top: 25px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+main .stats__section .stat__right ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #273240;
+}
+main .stats__section .stat__right ul li span {
+  opacity: 0.7;
+}
+main .stats__section h1,
+main .stats__section input {
   margin: 0;
   color: #1f384c;
   font-size: 18px;

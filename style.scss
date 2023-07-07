@@ -107,11 +107,22 @@ main {
       .stat__title__date {
         display: flex;
         justify-content: space-between;
+
+        input {
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          gap: 10px;
+          color: #504178;
+          padding: 10px;
+          border: 1px solid #00000033;
+          border-radius: 10px;
+          width: 180px;
+        }
       }
 
       .schema__container {
         display: flex;
-        margin-top: 29px;
         height: 100%;
 
         .numbers__list {
@@ -234,9 +245,33 @@ main {
 
     .stat__right {
       width: 40%;
+      display: flex;
+      flex-direction: column;
+      ul {
+        width: 100%;
+        margin-top: 25px;
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+
+        li {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 14px;
+          line-height: 18px;
+          font-weight: 500;
+          color: #273240;
+          span {
+            opacity: 0.7;
+          }
+        }
+      }
     }
 
-    h1 {
+    h1,
+    input {
       margin: 0;
       color: #1f384c;
       font-size: 18px;
