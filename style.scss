@@ -79,7 +79,7 @@ main {
       }
     }
   }
-
+  // ----- stats section
   .stats__section {
     height: 520px;
     min-width: 1127px;
@@ -277,6 +277,42 @@ main {
       font-size: 18px;
       font-weight: 600;
       line-height: 27px;
+    }
+  }
+  // ----- overview section
+  .overview__section {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 40px;
+    height: 521px;
+    min-width: 1127px;
+    padding: 37px;
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        font-size: 18px;
+        margin: 0;
+      }
+
+      input {
+        height: 50px;
+        background-color: #f6f8fa;
+        border-radius: 10px;
+        &::placeholder {
+          color: #b0b0b0;
+          font-size: 16px;
+          line-height: 24px;
+          padding-left: 10px;
+        }
+      }
+    }
+
+    table {
+      margin-top: 19px;
+      width: 100%;
     }
   }
 }

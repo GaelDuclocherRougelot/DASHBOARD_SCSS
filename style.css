@@ -238,6 +238,44 @@ main .stats__section input {
   font-weight: 600;
   line-height: 27px;
 }
+main .overview__section {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 40px;
+  height: 521px;
+  min-width: 1127px;
+  padding: 37px;
+}
+main .overview__section__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .overview__section__header h1 {
+  font-size: 18px;
+  margin: 0;
+}
+main .overview__section__header input {
+  height: 50px;
+  background-color: #f6f8fa;
+  border-radius: 10px;
+}
+main .overview__section__header input::-moz-placeholder {
+  color: #b0b0b0;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 10px;
+}
+main .overview__section__header input::placeholder {
+  color: #b0b0b0;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 10px;
+}
+main .overview__section table {
+  margin-top: 19px;
+  width: 100%;
+}
 
 .sidebar {
   position: fixed;
