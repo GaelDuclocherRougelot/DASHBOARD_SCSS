@@ -69,6 +69,95 @@ main .percent__cards .card .card__description h3 {
   color: #80809c;
   line-height: 24px;
 }
+main .stats__section {
+  height: 520px;
+  min-width: 1127px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 32px 40px 32px 40px;
+  gap: 40px;
+  border-radius: 10px;
+}
+main .stats__section hr {
+  border: none;
+  border-left: 1px solid #d6d6d6;
+  height: 100%;
+  width: 1px;
+}
+main .stats__section .stat__left {
+  width: 60%;
+  height: 100%;
+}
+main .stats__section .stat__left .stat__title__date {
+  display: flex;
+  justify-content: space-between;
+}
+main .stats__section .stat__left .schema__container {
+  display: flex;
+  margin-top: 29px;
+  height: 100%;
+}
+main .stats__section .stat__left .schema__container .numbers__list li {
+  padding: 8px;
+  margin: 9px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  color: #939393;
+}
+main .stats__section .stat__left .schema__container .months__and__bars {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars {
+  display: flex;
+  gap: 31px;
+  height: 100%;
+  max-height: 379px;
+  margin-left: 13px;
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar {
+  width: 100%;
+  height: 100%;
+  background-color: #ede7fd;
+}
+main .stats__section .stat__left .schema__container .months__and__bars .bars .bar1 .inside__bar {
+  -webkit-clip-path: inset(55% 0% 0 0%);
+          clip-path: inset(55% 0% 0 0%);
+  background-color: #504178;
+  height: 100%;
+}
+main .stats__section .stat__left .schema__container .months__and__bars .months__list {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+  margin-left: 13px;
+}
+main .stats__section .stat__left .schema__container .months__and__bars .months__list li {
+  text-align: center;
+  min-width: 20px;
+  font-size: 12px;
+  padding: 8px;
+  font-weight: 600;
+  line-height: 12px;
+  color: #939393;
+}
+main .stats__section .stat__right {
+  width: 40%;
+}
+main .stats__section h1 {
+  margin: 0;
+  color: #1f384c;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
 
 .sidebar {
   position: fixed;
